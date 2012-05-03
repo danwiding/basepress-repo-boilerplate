@@ -32,7 +32,7 @@
 		
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/css/theme.fonts.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/css/global.style.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/style.css" />
 				
 		<!--[if lt IE 9]><script src="<?= bloginfo('stylesheet_directory'); ?>/js/html5.js" type="text/javascript"></script><![endif]-->
 		

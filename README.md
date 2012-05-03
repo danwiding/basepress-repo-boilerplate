@@ -18,7 +18,7 @@ To customize this directory follow the following checklist
 [] Customize the wp-config-app.php file with the project name and correct timezone
 [] Check that wp-config-{stage} is correct for each server
 [] Customize application theme name for the directory /themes/junto/ - /themes/{project name}
-[] Customize the //themes/{project name}/css/global.style.css file for the theme name and author
+[] Customize the //themes/{project name}/style.css file for the theme name and author
 [] Customize the //themes/{project name}/index.php file for the theme name and author
 [] Run git submodule summary and/or git submodule udpate --recursive --init to make sure the submodule is set up correctly
 [] Commit
