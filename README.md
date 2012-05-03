@@ -13,8 +13,6 @@ To customize this directory follow the following checklist
 [] Check deploy/capistrano-deploy/staging is correct for the staging environment - presently hostgator,name the application, and set the git repo
 [] Check deploy/capistrano-deploy/production is correct for the production environment - presently hostgator,name the application, and set the git repo
 [] Set /config/htaccess/.htaccess-{stage} is correct for each stage, currently hostgator. Other options available in folder
-[] Create the sensitive configuration file for the wp-sensitive-staging on the deploy ftp server at /remoteftp/junto/projects/{project}/sensitiveconfig
-[] Create the sensitive configuration file for the wp-sensitive-production on the deploy ftp server at /remoteftp/junto/projects/{project}/sensitiveconfig
 [] Customize the wp-config-app.php file with the project name and correct timezone
 [] Check that wp-config-{stage} is correct for each server
 [] Customize application theme name for the directory /themes/junto/ - /themes/{project name}
