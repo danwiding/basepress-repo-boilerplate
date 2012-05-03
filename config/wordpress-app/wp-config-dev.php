@@ -5,7 +5,6 @@ define( 'DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST'] );
 define('FORCE_SSL_LOGIN', true);
 define('FORCE_SSL_ADMIN', true);
 
-define('JUNTO_FB_FANPAGE', 'fb page');
 
 /**
  * For developers: WordPress debugging mode.

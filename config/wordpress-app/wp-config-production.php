@@ -21,7 +21,4 @@ define('WP_CACHE', true);
 if ( !defined('VIA_ENVIRONMENT') )
 	define('VIA_ENVIRONMENT', 'prod');
 
-//secret in sensitive file
-
-define('JUNTO_FB_FANPAGE', '214331338590757');
 

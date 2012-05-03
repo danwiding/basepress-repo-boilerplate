@@ -11,7 +11,7 @@ date_default_timezone_set('America/Chicago');
  */
 
 define('JUNTO_APP_NAME', 'TransparentMe');
-$table_prefix  = JUNTO_APP_NAME;
+$table_prefix  = JUNTO_APP_NAME . "_";
 
 //define('WP_ALLOW_MULTISITE', true);
 //define( 'MULTISITE', true );

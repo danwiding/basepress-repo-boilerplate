@@ -1,9 +1,10 @@
-set :deploy_to, "~/transparent-me/"
+server "polymathicmedia.com", :app
 set :user, "marcycap"
 set :use_sudo, false
 set :port, 2222
 
-set :application, "transparentme"
-set :repository, "git@github.com:PolymathicMedia/transparent-me.git"
+set :application, "application"
+set :deploy_to, "~/JuntoProjects/#{application}/production/"
 
-server "polymathicmedia.com", :app
+set :repository, "git repostiory"
+
