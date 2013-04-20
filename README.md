@@ -25,15 +25,15 @@ Dev setup Checklist
 1.) Create an empty database for the wordpress application with collation utf8_general_ci
 2.) Git clone the application to a folder
 3.) Run "Git submodule update --recursive --init"
-4.) Run the juntobasepress/basicdevsetup.sh with "sh juntobasepress/basicdevsetup.sh"
+4.) Run the basepress/basicdevsetup.sh with "sh basepress/basicdevsetup.sh"
 5.) Create a wp-sensitive-local.json file in config/sensitive/ by copying the wp-sensitive-template.json and customizing the values
 6.) Run "Git submodule foreach --recursive 'git checkout master'" - this will ensure that the submdoules are on the correct branch - since branch is not defaulted
-7.) Run "(path to php) juntobasepress/tools/mysql-php-migrations/migrate.php latest
+7.) Run "(path to php) basepress/tools/mysql-php-migrations/migrate.php latest
 8.) activate the account
 
 Dev update checklist
 1.)git pull
 2.)Run "Git submodule update --recursive --init"
-3.)Run "(path to php) juntobasepress/tools/mysql-php-migrations/migrate.php latest
+3.)Run "(path to php) basepress/tools/mysql-php-migrations/migrate.php latest
 4.)Activate the theme again (hit the url {host}/wp-admin/?activated=true with the admin account)
 
